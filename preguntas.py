@@ -7,7 +7,6 @@ En este laboratio se construirá un clasificador usando k-NN para el dataset de 
 """
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 from sklearn import datasets
 
 
@@ -20,19 +19,20 @@ def pregunta_01():
     digits = datasets.load_digits()
 
     # Imprima los nombres de la variable target del dataset
-    print(digits.target)
+    print(digits.target_names)
 
     # Imprima las dimensinoes de matriz de datos
-    print(digits.data)
+    print(digits.data.shape)
 
     # Imprima las dimensiones del vector de salida
-    print(digits.target)
+    print(digits.target.shape)
 
 
 def pregunta_02():
     """
     Complete el código presentado a continuación.
     """
+    import pandas as pd
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
