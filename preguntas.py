@@ -27,12 +27,12 @@ def pregunta_01():
     # Imprima las dimensiones del vector de salida
     print(digits.target.shape)
 
-
+import pandas as pd
 def pregunta_02():
     """
     Complete el código presentado a continuación.
     """
-    import pandas as pd
+    
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
