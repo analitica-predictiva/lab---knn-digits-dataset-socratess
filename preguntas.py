@@ -32,7 +32,7 @@ def pregunta_02():
     """
     Complete el código presentado a continuación.
     """
-    import pandas as pd
+    
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
