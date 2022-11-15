@@ -17,7 +17,7 @@ def pregunta_01():
     """
 
     # Cargue el dataset digits
-    digits = datasets.load_digits(as_frame=True)
+    digits = datasets.load_digits()
 
     # Imprima los nombres de la variable target del dataset
     print(digits.target_names)
@@ -60,7 +60,7 @@ def pregunta_02():
     knn.fit(X_train,y_train)
 
     # Imprima la precisión (score) del clasificador en el conjunto de datos de prueba
-    print(round(knn.score(X_train, y_train), 4))
+    print(round(knn.score(X_test, y_test), 4))
 
 
 def pregunta_03():
@@ -69,10 +69,10 @@ def pregunta_03():
     """
 
     # Importe KNeighborsClassifier de sklearn.neighbors
-    from ____ import ____
+    from sklearn.neighbors import KNeighborsClassifier
 
     # Importe train_test_split de sklearn.model_selection
-    from ____ import ____
+    from sklearn.model_selection import train_test_split
 
     # Cargue el dataset digits
     digits = ____.____()
