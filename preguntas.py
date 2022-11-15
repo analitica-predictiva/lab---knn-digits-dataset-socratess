@@ -15,7 +15,7 @@ def pregunta_01():
     """
     Complete el código presentado a continuación.
     """
-
+    import pandas as pd
     # Cargue el dataset digits
     digits = datasets.load_digits()
 
