@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets
 
-
 def pregunta_01():
     """
     Complete el código presentado a continuación.
