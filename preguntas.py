@@ -38,6 +38,7 @@ def pregunta_02():
     # Importe train_test_split de sklearn.model_selection
     from sklearn.model_selection import train_test_split
 
+
     # Cargue el dataset digits
     digits = datasets.load_digits()
 
